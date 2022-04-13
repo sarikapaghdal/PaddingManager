@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 @available(macOS 10.15, *)
-extension View {
+public extension View {
     func padding(vertical: CGFloat, horizontal: CGFloat) -> some View {
         self.padding(.vertical, vertical)
             .padding(.horizontal, horizontal)
