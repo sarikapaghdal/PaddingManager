@@ -14,4 +14,9 @@ public extension View {
         self.padding(.vertical, vertical)
             .padding(.horizontal, horizontal)
     }
+    
+    func padding(top: CGFloat, bottom: CGFloat) -> some View {
+        self.padding(.top, top)
+            .padding(.bottom, bottom)
+    }
 }
