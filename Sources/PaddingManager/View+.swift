@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-@available(macOS 10.15, *)
+@available(iOS 15, macOS 10.15, *)
 public extension View {
     func padding(vertical: CGFloat, horizontal: CGFloat) -> some View {
         self.padding(.vertical, vertical)
